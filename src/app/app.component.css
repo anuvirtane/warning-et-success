@@ -1,0 +1,13 @@
+.flex-child {
+  flex-basis: 0px;
+  flex-grow: 1;
+}
+
+
+@media only screen and (max-width: 553px) {
+ .flex-child {
+flex-basis: 100%;
+
+
+ }
+}
