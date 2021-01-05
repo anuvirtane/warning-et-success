@@ -119,8 +119,13 @@
               "devServerTarget": "warning-et-success:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "warning-et-success"
 }
